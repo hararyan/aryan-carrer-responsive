@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #444;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color:#67E8F9;
+}
+a:hover{
+    color: #1E40AF;
+}
+
+.navbar {
+    width: 100%;
+    padding: 8px 16px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#application div{
+    margin: 10px;
+}
+.application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+.application-form{
+    font-weight: 600;
+}
+.application-form input,select,textarea{
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    object-fit: cover;
+    height: 360px;
+}
+
+.logo {
+    height: 90px;
+}
+
+.About {
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image {
+    width: 50%;
+}
+
+.description {
+    width: 50%;
+    padding-right: 8px;
+    font-size: 25px;
+}
+
+.team-image {
+    border-radius: 5px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.jobs {
+    padding-left: 12px;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.job-roles {
+    margin-bottom: 5px;
+}
+
+.apply {
+    margin-bottom: 0px;
+    float: right;
+    padding-right: 0;
+}
+
+.jobs-table {
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+
+}
+
+.jobs-header-row th {
+    border: 1px solid grey;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center;
+    color: #222;
+}
+
+.jobs-data-row td {
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+.jobs-table tr:nth-child(odd) {
+    background-color: #EFF6FF;
+}
+
+.footer {
+    background-color: #FAFAFA;
+    padding: 9px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.footer-links li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline;
+
+
+}
+.check input[type="checkbox"]{
+    width: 50px;
+}
+.submit{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #1E40AF;
+}
+.copywrite {
+    text-align: center;
+    color: grey;
+}
